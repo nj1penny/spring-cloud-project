@@ -3,14 +3,13 @@ package com.tedu.sp02.item.service;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.stereotype.Service;
 
 import com.tedu.sp01.pojo.Item;
 import com.tedu.sp01.service.ItemService;
 
 import lombok.extern.slf4j.Slf4j;
-@EnableDiscoveryClient
+
 @Slf4j
 @Service
 public class ItemServiceImpl implements ItemService {
